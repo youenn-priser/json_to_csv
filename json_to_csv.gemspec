@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["youenn.priser@gmail.com"]
 
   spec.summary       = %q{This Ruby lib aims at converting JSON files composed of arrays of objects (all following the same schema) into CSV files where one line equals one object.}
-  spec.homepage      = "Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/youenn-priser/json_to_csv"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
