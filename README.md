@@ -9,9 +9,10 @@ install the gem yourself running this command in your terminal:
 
 ## Usage
 ### From the console
-$ irb
-$ require 'json_to_csv'
-$ JsonToCsv::Convert.new('your_json_file_path')
+
+    $ irb
+    $ require 'json_to_csv'
+    $ JsonToCsv::Convert.new('your_json_file_path')
 
 This will convert your JSON into a CSV file, generated right in the directory from which your calling the method.
 
