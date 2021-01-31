@@ -1,34 +1,28 @@
 # JsonToCsv
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/json_to_csv`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'json_to_csv'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
+install the gem yourself running this command in your terminal:
 
     $ gem install json_to_csv
 
 ## Usage
+### From the console
+$ irb
+$ require 'json_to_csv'
+$ JsonToCsv::Convert.new('your_json_file_path')
 
-TODO: Write usage instructions here
+This will convert your JSON into a CSV file, generated right in the directory from which your calling the method.
 
-## Development
+### From your ruby file
+```ruby
+require 'json_to_csv'
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+JsonToCsv::Convert.new('your_json_file_path')
+```
+This will convert your JSON into a CSV file, generated right in the directory from which your calling the method.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
